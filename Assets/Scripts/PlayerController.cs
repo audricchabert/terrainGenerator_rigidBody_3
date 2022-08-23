@@ -42,6 +42,6 @@ public class PlayerController : MonoBehaviour
 
     void AddForce()
     {
-        GetComponent<Rigidbody>().AddForce(new Vector3(inputs.y, inputs.z, inputs.x));
+        GetComponent<Rigidbody>().AddRelativeForce(new Vector3(inputs.y, inputs.z, inputs.x));
     }
 }

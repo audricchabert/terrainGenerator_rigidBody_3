@@ -11,8 +11,8 @@ public class CameraController : MonoBehaviour
      ** Mouse sensitivity settings
      */
     public float mouseSensitivity = 1200f;
-    float xSensitivity = 10f;
-    float ySensitivity = 10f;
+    float xSensitivity = 3f;
+    float ySensitivity = 3f;
 
     //variable to store the up/down rotation, and also to be able to limit it to 90°
     float xRotation = 0f;
