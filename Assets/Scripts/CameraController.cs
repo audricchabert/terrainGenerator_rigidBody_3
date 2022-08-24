@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     /*
      ** Mouse sensitivity settings
      */
-    public float mouseSensitivity = 1200f;
+    public float mouseSensitivity = 200f;
     float xSensitivity = 3f;
     float ySensitivity = 3f;
 
